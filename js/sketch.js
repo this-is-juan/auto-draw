@@ -1,10 +1,8 @@
 let female;
 let x, y;
-let font;
-
 
 function preload() {
-  female = loadImage("assets/photo3-small.jpg");
+  female = loadImage("assets/photo2-small.jpg");
 }
 
 function setup() {
@@ -99,13 +97,8 @@ function draw() {
 
 // SAVE AS PNG
 
-function keyPressed(){
-
-  if(key == 's'){
-
+function saveImage(){
     save('face.png');
-  }
-  
 }
 
 
