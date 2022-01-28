@@ -2,27 +2,42 @@
 
 body{
 	margin: 0;
-  background-color: black;
+  background-color: #131313;
   font-family: sans-serif;
 }
 
-header {
-  padding: 3rem;
+ img.thisisjuan {
+     width: 80px;
+}
+
+.site-header {
   display: flex;
-  align-items: flex-end;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4vw;
 }
 
-a {
-  color: white;
+ .buttons {
+     display: flex;
+     align-items: center;
 }
 
-button {
+button.icons {
   background: none;
   border: none;
   outline: none;
   padding: 1rem;
+  margin-left: 1rem;
   cursor: pointer;
+}
+
+button:hover {
+    background: #000;
+    border-radius: 1rem;
+}
+
+a {
+  color: white;
 }
 
 canvas {
