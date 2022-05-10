@@ -95,10 +95,10 @@ function draw() {
 
 }
 
-// SAVE AS PNG
+// SAVE AS SVG
 
 function saveImage(){
-    save('face.png');
+    save('autodraw.svg');
 }
 
 
