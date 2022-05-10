@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(540, 675);
+  createCanvas(540, 675, SVG);
   x = 0;
   y = height - height;
   yBtm = height;
